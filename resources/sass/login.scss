@@ -1,0 +1,30 @@
+$textColor: white;
+$loginBackground: #050505;
+
+@mixin flexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+html, body
+{
+    height: 100%;
+}
+
+body
+{
+    background-image: url("/images/login_background.jpg");
+}
+
+.login
+{
+    @include flexCenter();
+    background: $loginBackground;
+}
+
+h2
+{
+    font-size: 32px;
+    color: $textColor;
+}
