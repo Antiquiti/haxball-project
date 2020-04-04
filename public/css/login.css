@@ -1,0 +1,21 @@
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-image: url("/images/login_background.jpg");
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #050505;
+}
+
+h2 {
+  font-size: 32px;
+  color: white;
+}
+

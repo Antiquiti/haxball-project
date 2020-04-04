@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
+        
     </head>
     <body> 
-    jebac poteznie lelucha
+        <p>jebac poteznie lelucha</p>
     </body>
 </html>
