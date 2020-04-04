@@ -15,16 +15,49 @@ html, body
 body
 {
     background-image: url("/images/login_background.jpg");
-}
-
-.login
-{
-    @include flexCenter();
-    background: $loginBackground;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
 }
 
 h2
 {
     font-size: 32px;
     color: $textColor;
+    margin: 0 0 20px 0;
+}
+
+form
+{
+
+}
+
+.center-section
+{
+    @include flexCenter();
+    flex: 1;
+}
+
+.center-vertical
+{
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.version
+{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.window
+{
+    background: $loginBackground;
+    width: 50vh;
+    min-height: 50vh;
+    max-height: 75vh;
+    overflow: auto;
+    display: inline-flex;
+    flex-direction: column;
 }
