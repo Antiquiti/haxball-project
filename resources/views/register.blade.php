@@ -1,19 +1,20 @@
 <!DOCTYPE html>
     <head>
-        <link rel="stylesheet" href="/css/login.css">
+        <link rel="stylesheet" href="/css/register.css">
     </head>
     <body> 
         <div class="welcome-window">
-            <h2>Zaloguj się</h2>
+            <h2>Zarejestruj się</h2>
             <div class="welcome-form">
                 <form>
                     <input type="text" placeholder="Login"/>
+                    <input type="text" placeholder="Email"/>
                     <input type="text" placeholder="Hasło"/>
-                    <div class="checkbox-container"><div class="custom-checkbox"><input type="checkbox"/><div class="background"></div></div>Zapamiętaj mnie</div>
+                    <input type="text" placeholder="Powtórz hasło"/>
+                    <div class="checkbox-container"><div class="custom-checkbox"><input type="checkbox"/><div class="background"></div></div>Zapoznałem się i akceptuję&nbsp<a href="/">regulamin</a></div>
                 </form>
             </div>
             <div class="welcome-actions">
-                <a href="/register">Zarejestruj się</a>
                 <button class="primitive-button">WYŚLIJ</button>
             </div>
         </div>

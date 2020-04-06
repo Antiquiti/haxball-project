@@ -1,0 +1,17 @@
+@use 'main';
+@use 'login';
+
+.welcome-actions
+{
+    padding-top: 20px;
+
+    button
+    {
+        margin-left: auto;
+    }
+}
+
+.welcome-window
+{
+    height: 650px;
+}
