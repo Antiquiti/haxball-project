@@ -175,3 +175,15 @@ body {
   flex: 1;
 }
 
+.welcome-actions {
+  padding-top: 20px;
+}
+
+.welcome-actions button {
+  margin-left: auto;
+}
+
+.welcome-window {
+  height: 650px;
+}
+
