@@ -1,0 +1,33 @@
+@use 'main';
+
+.img
+{
+    @include main.fullCenter();
+    margin-bottom: 50px;
+}
+
+.info-label
+{
+    color: #9F9F9F;
+    font-weight: bold;
+}
+
+.profile-div
+{
+    display: flex; 
+}
+
+.inputs
+    {
+        display: block;
+        margin-left: auto;
+        input
+        {
+            height: 16px;
+            width: 16px;
+        }
+        :last-child
+        {
+            margin-left: 20px;
+        }
+    }

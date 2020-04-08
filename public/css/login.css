@@ -55,6 +55,7 @@ body {
 * {
   color: #fff;
   font: 16px "Roboto", sans-serif;
+  margin: 0;
 }
 
 a {

@@ -14,3 +14,5 @@ const mix = require('laravel-mix');
 mix.sass('resources/sass/login.scss', 'public/css');
 mix.sass('resources/sass/register.scss', 'public/css');
 mix.sass('resources/sass/main.scss', 'public/css');
+mix.sass('resources/sass/userpanel.scss', 'public/css');
+mix.sass('resources/sass/mainpage.scss', 'public/css');
