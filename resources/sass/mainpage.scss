@@ -1,0 +1,27 @@
+@use 'main';
+@use 'userpanel';
+
+body
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.user-panel
+{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 400px;
+    background-color: #272C2E;
+    @include main.borderBox(50px);
+}
+
+.page-content
+{
+    display: flex;
+    flex: 1;
+    background-image: linear-gradient(#000, transparent 50%), linear-gradient(to top, #000, transparent 50%), url("/images/login_background.jpg");
+    background-position: center;
+    background-size: cover;
+}
