@@ -96,11 +96,17 @@ form > * + * {
   border: none;
 }
 
-.img {
+.logo {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-bottom: 50px;
+}
+
+.profile-banner,
+.friends-banner {
+  display: flex;
+  margin-bottom: 20px;
 }
 
 .info-label {
@@ -108,21 +114,40 @@ form > * + * {
   font-weight: bold;
 }
 
-.profile-div {
-  display: flex;
-}
-
-.inputs {
+.icons {
   display: block;
   margin-left: auto;
 }
 
-.inputs input {
+.icons input {
   height: 16px;
   width: 16px;
 }
 
-.inputs :last-child {
+.icons :not(:first-child) {
   margin-left: 20px;
+}
+
+.user-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px;
+  margin: 0px -50px 20px;
+  cursor: pointer;
+}
+
+.user-info label {
+  font-weight: bold;
+}
+
+.user-info img {
+  margin-bottom: 20px;
+}
+
+.user-info:hover {
+  background-color: #3C4245;
 }
 
