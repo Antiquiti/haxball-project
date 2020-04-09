@@ -1,9 +1,15 @@
 @use 'main';
 
-.img
+.logo
 {
     @include main.fullCenter();
     margin-bottom: 50px;
+}
+
+.profile-banner
+{
+    display: flex;
+    margin-bottom: 20px; 
 }
 
 .info-label
@@ -12,22 +18,47 @@
     font-weight: bold;
 }
 
-.profile-div
+.icons
 {
-    display: flex; 
+    display: block;
+    margin-left: auto;
+    input
+    {
+        height: 16px;
+        width: 16px;
+    }
+    :not(:first-child)
+    {
+        margin-left: 20px;
+    }
 }
 
-.inputs
+.user-info
+{
+    @include main.fullCenter();
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px;
+    margin: 0px -50px 20px;
+    cursor: pointer;
+
+    label
     {
-        display: block;
-        margin-left: auto;
-        input
-        {
-            height: 16px;
-            width: 16px;
-        }
-        :last-child
-        {
-            margin-left: 20px;
-        }
+        font-weight: bold;
     }
+
+    img
+    {
+        margin-bottom: 20px;
+    }
+}
+
+.user-info:hover
+{
+    background-color: #3C4245;
+}
+
+.friends-banner
+{
+    @extend .profile-banner;
+}
