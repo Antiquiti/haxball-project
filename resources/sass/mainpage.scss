@@ -14,7 +14,6 @@ body
     height: 100vh;
     width: 400px;
     background-color: #272C2E;
-    @include main.borderBox(50px);
 }
 
 .page-content
