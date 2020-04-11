@@ -16,10 +16,6 @@ body {
   background: #888;
 }
 
-::-webkit-scrollbar-thumb:hover {
-  background: #555;
-}
-
 .custom-checkbox {
   display: block;
   position: relative;
@@ -94,5 +90,11 @@ form > * + * {
   font-weight: 700;
   text-transform: uppercase;
   border: none;
+  transition: 0.25s;
+  outline: none;
+}
+
+.primitive-button:hover {
+  background-color: #692929;
 }
 
