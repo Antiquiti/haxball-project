@@ -15,7 +15,7 @@
             </div>
 
             <div class="user-info">
-                <img src="/images/avatar.png"/>
+                <div class="user-avatar"></div>
                 <label>Antiquity</label>
             </div>
 
@@ -28,37 +28,37 @@
 
             <div class="friends-list">
                 <div class="single-friend">
-                    <div class="avatar">
+                    <div class="friend-avatar-red">
                         <div class="online"></div>
                     </div>
                     <label>Antiquity 1</label>
                 </div>
                 <div class="single-friend">
-                    <div class="avatar">
+                    <div class="friend-avatar-red">
                         <div class="online"></div>
                     </div>
                     <label>Antiquity 2</label>
                 </div>
                 <div class="single-friend">
-                    <div class="avatar">
+                    <div class="friend-avatar-blue">
                         <div class="online"></div>
                     </div>
                     <label>Leluch Lampuge</label>
                 </div>
                 <div class="single-friend">
-                    <div class="avatar">
+                    <div class="friend-avatar-blue">
                         <div class="online"></div>
                     </div>
                     <label>dappo</label>
                 </div>
                 <div class="single-friend">
-                    <div class="avatar">
+                    <div class="friend-avatar-gold">
                         <div class="online"></div>
                     </div>
                     <label>Antiquity 3</label>
                 </div>
                 <div class="single-friend">
-                    <div class="avatar">
+                    <div class="friend-avatar-gold">
                         <div class="online"></div>
                     </div>
                     <label>Nani?</label>
