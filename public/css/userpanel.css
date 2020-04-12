@@ -92,6 +92,7 @@ form > * + * {
   border: none;
   transition: 0.25s;
   outline: none;
+  cursor: pointer;
 }
 
 .primitive-button:hover {
@@ -126,7 +127,7 @@ form > * + * {
   width: 16px;
 }
 
-.icons :not(:first-child) {
+.icons input + input {
   margin-left: 20px;
 }
 

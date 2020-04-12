@@ -1,0 +1,35 @@
+@use 'main';
+
+.primitive-button
+{
+    margin: 50px 0px;
+}
+
+nav
+{
+    div:not(.notifications)
+    {
+        @include main.fullCenter();
+        margin-left: 20px;
+        padding: 0px 20px;
+    }
+
+    a
+    {
+        font-weight: bold;
+        color: #FFFFFF;
+    }
+}
+
+.notifications
+{
+    @include main.fullCenter();
+    margin-left: auto;
+}
+
+.separator
+{
+    margin: 0px 50px;
+    height: 1px;
+    background-color: #FFFFFF;
+}

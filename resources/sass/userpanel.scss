@@ -22,14 +22,16 @@
 {
     display: block;
     margin-left: auto;
+    
     input
     {
         height: 16px;
         width: 16px;
     }
-    :not(:first-child)
+
+    input + input
     {
-        margin-left: 20px;
+        margin-left:20px;
     }
 }
 

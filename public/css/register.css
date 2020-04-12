@@ -92,6 +92,7 @@ form > * + * {
   border: none;
   transition: 0.25s;
   outline: none;
+  cursor: pointer;
 }
 
 .primitive-button:hover {
