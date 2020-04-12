@@ -66,6 +66,20 @@
             </div>
         </div>
 
-        <div class="page-content"></div>
+        <div class="page-content">
+            <nav>
+                <button class="primitive-button">GRAJ</button>
+                <div><a href="/">STRONA GŁÓWNA</a></div>
+                <div><a href="/">RANKING</a></div>
+                <div><a href="/">FORUM</a></div>
+                <div class="notifications"><input type="image" src="/images/bell.png"/></div>
+            </nav>
+            <div class="separator"></div>
+            <div class="slideshow">
+                <div class="current-slide"></div>
+                <div class="slide"></div>
+                <div class="slide"></div>
+            </div>
+        </div>
     </body>
 </html>
