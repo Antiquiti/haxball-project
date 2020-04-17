@@ -1,6 +1,7 @@
 @use 'main';
 @use 'userpanel';
 @use 'navbar';
+@use 'windows';
 
 body
 {
@@ -61,4 +62,9 @@ nav
 {
     @extend .slide;
     background-color: #FFFFFF;
+}
+
+label
+{
+    font-weight: bold;
 }

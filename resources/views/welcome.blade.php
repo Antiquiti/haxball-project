@@ -81,5 +81,23 @@
                 <div class="slide"></div>
             </div>
         </div>
+
+        <div class="settings-background">
+            <div class="settings">
+                <div class="nav-settings">
+                    <div class="nav-settings-element"><div class="current-element"></div><label>Zmień zdjęcie</label></div>
+                    <div class="nav-settings-element"><label>Zmień hasło</label></div>
+                    <div class="nav-settings-element"><label>Zmień nazwę gracza</label></div>
+                    <div class="nav-settings-element"><label>Ustawienia aplikacji</label></div>
+                </div>
+
+                <div class="change-photo">
+                    <label>Zmień zdjęcie</label>
+                    <label id="info">Kliknij na swoje obecne zdjęcie aby je zmienić. Rozmiar zdjęcia musi wynosić 200 na 200 pikseli.</label>
+                    <div class="avatar-center"><div class="avatar-big"></div></div>
+                    <button class="primitive-button">ZATWIERDŹ</button>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
