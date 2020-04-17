@@ -15,7 +15,6 @@
 .info-label
 {
     color: #9F9F9F;
-    font-weight: bold;
 }
 
 .icons
@@ -44,11 +43,6 @@
     margin-bottom: 20px;
     cursor: pointer;
     transition: 0.25s;
-
-    label
-    {
-        font-weight: bold;
-    }
 }
 
 .user-info:hover
@@ -89,7 +83,6 @@
 
     label
     {
-        font-weight: bold;
         align-self: center;
     }
 }

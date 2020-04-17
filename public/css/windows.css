@@ -99,118 +99,88 @@ form > * + * {
   background-color: #692929;
 }
 
-.logo {
+.settings-background {
+  position: absolute;
+  height: 100%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 50px 0px;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
-.profile-banner,
-.friends-banner {
+.settings {
+  width: 1000px;
+  height: 600px;
+  background-color: #0E1111;
   display: flex;
-  margin: 0px 50px 20px;
+  flex-direction: row;
 }
 
-.info-label {
-  color: #9F9F9F;
-}
-
-.icons {
-  display: block;
-  margin-left: auto;
-}
-
-.icons input {
-  height: 16px;
-  width: 16px;
-}
-
-.icons input + input {
-  margin-left: 20px;
-}
-
-.user-info {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.nav-settings {
   display: flex;
   flex-direction: column;
-  padding: 20px 0px;
-  margin-bottom: 20px;
-  cursor: pointer;
-  transition: 0.25s;
+  width: 250px;
+  height: 100%;
+  background-color: #272C2E;
 }
 
-.user-info:hover {
+.nav-settings-element {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-settings-element label {
+  margin: 20px 0px 20px 30px;
+  cursor: pointer;
+}
+
+.nav-settings-element:hover {
   background-color: #3C4245;
 }
 
-.user-avatar {
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background-image: url("/images/avatar.png");
-  margin-bottom: 20px;
-  border: 2px solid #3C5587;
+.current-element {
+  width: 10px;
+  height: 100%;
+  margin-right: -10px;
+  background-color: #617FBB;
 }
 
-.friends-list {
+.change-photo {
+  flex: 1;
   display: flex;
   flex-direction: column;
-  overflow-y: auto;
-  overflow-x: hidden;
+  margin: 50px;
 }
 
-.single-friend {
-  display: flex;
-  flex-direction: row;
-  padding: 20px 0px 20px 50px;
-  transition: 0.25s;
+.change-photo label {
+  font-size: 20px;
 }
 
-.single-friend label {
+.change-photo #info {
+  font-size: 16px;
+  font-weight: normal;
+  margin-top: 20px;
+}
+
+.change-photo button {
   align-self: center;
 }
 
-.single-friend:hover {
-  background: #3C4245;
+.avatar-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.avatar-big {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background-image: url("/images/avatar_2.png");
+  background-size: cover;
   cursor: pointer;
-}
-
-.single-friend:hover .online {
-  border: 2px solid #3C4245;
-}
-
-.friend-avatar-red,
-.friend-avatar-gold,
-.friend-avatar-blue {
-  width: 50px;
-  height: 50px;
-  border-radius: 50%;
-  background-image: url("/images/avatar_1.png");
-  margin-right: 20px;
-  position: relative;
-  border: 2px solid #873C3C;
-}
-
-.friend-avatar-blue {
-  border: 2px solid #3C5587;
-}
-
-.friend-avatar-gold {
-  border: 2px solid #81873C;
-}
-
-.online {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background-color: #3D9A33;
-  border: 2px solid #272C2E;
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  transition: 0.25s;
 }
 

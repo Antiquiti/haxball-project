@@ -17,3 +17,4 @@ mix.sass('resources/sass/main.scss', 'public/css');
 mix.sass('resources/sass/userpanel.scss', 'public/css');
 mix.sass('resources/sass/mainpage.scss', 'public/css');
 mix.sass('resources/sass/navbar.scss', 'public/css');
+mix.sass('resources/sass/windows.scss', 'public/css');

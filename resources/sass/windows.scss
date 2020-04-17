@@ -1,0 +1,95 @@
+@use 'main';
+
+.settings-background
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    @include main.fullCenter();
+    background-color: rgba( #000000,  0.5);
+}
+
+.settings
+{
+    width: 1000px;
+    height: 600px;
+    background-color: #0E1111;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-settings
+{
+    display:flex;
+    flex-direction: column;
+    width: 250px;
+    height: 100%;
+    background-color: #272C2E;
+}
+
+.nav-settings-element
+{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+
+    label
+    {
+        margin: 20px 0px 20px 30px;   
+        cursor: pointer;
+    }
+}
+
+.nav-settings-element:hover
+{
+    background-color: #3C4245;
+}
+
+.current-element
+{
+    width: 10px;
+    height: 100%;
+    margin-right: -10px;
+    background-color: #617FBB;
+}
+
+.change-photo
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+
+    label
+    {
+        font-size: 20px;
+    } 
+
+    #info
+    {
+        font-size: 16px;
+        font-weight: normal;
+        margin-top: 20px;
+    }
+
+    button
+    {
+        align-self: center;
+    }
+}
+
+.avatar-center
+{
+    flex: 1;
+    @include main.fullCenter();
+}
+
+.avatar-big
+{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-image: url("/images/avatar_2.png");
+    background-size: cover;
+    cursor: pointer;
+}
