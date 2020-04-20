@@ -189,6 +189,7 @@ form > * + * {
   height: 50px;
   border-radius: 50%;
   background-image: url("/images/avatar_1.png");
+  background-size: cover;
   margin-right: 20px;
   position: relative;
   border: 2px solid #873C3C;
@@ -244,7 +245,8 @@ nav button {
   background-color: #FFFFFF;
 }
 
-.settings-background {
+.settings-background,
+.notifications-background {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -252,6 +254,7 @@ nav button {
   justify-content: center;
   align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
+  display: none;
 }
 
 .settings {
@@ -327,6 +330,98 @@ nav button {
   background-image: url("/images/avatar_2.png");
   background-size: cover;
   cursor: pointer;
+}
+
+.notifications-background {
+  display: flex;
+}
+
+.notifications-window {
+  width: 900px;
+  height: 600px;
+  background-color: #0E1111;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.notifications-window .separator {
+  margin: 20px 50px;
+}
+
+#notify-label {
+  margin: 50px 0px 0px 50px;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+
+.information-bar,
+.friends-notifications-bar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px 50px;
+}
+
+.information-bar label,
+.friends-notifications-bar label {
+  color: #9F9F9F;
+}
+
+.information-bar input,
+.friends-notifications-bar input {
+  margin-left: auto;
+}
+
+.single-information {
+  padding: 20px 50px;
+  display: flex;
+}
+
+.single-information label {
+  font-weight: normal;
+  text-align: justify;
+}
+
+.single-information:hover {
+  background-color: #272C2E;
+}
+
+.single-friend-request {
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.single-friend-request input {
+  margin-left: auto;
+}
+
+.single-friend-request .icons input {
+  width: auto;
+  height: auto;
+}
+
+.single-friend-request:hover {
+  background-color: #272C2E;
+}
+
+#id1 {
+  background-image: url("/images/sarada.jpg");
+}
+
+#id2 {
+  background-image: url("/images/kaneki.jpg");
+}
+
+#id3 {
+  background-image: url("/images/raki.jpg");
+}
+
+#id4 {
+  background-image: url("/images/horo.jpg");
 }
 
 body {

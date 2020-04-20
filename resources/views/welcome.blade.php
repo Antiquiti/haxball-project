@@ -99,5 +99,49 @@
                 </div>
             </div>
         </div>
-    </body>
-</html>
+
+        <div class="notifications-background">
+            <div class="notifications-window">
+                <label id="notify-label">Powiadomienia</label>
+                <div class="information-bar"><label>INFORMACJE</label><input type="image" src="/images/hide.png"/></div>
+                
+                <div class="informations">
+                    <div class="single-information"><label>W wyniku tego że pewien albert z chujnych jest debilem prace nad implementacją systemu ligowego postępują z wyraźnym opóźnieniem. W związku z powyższym premiera ligi zostaje przełożona o czas nieokreślony.</label></div>
+                    <div class="single-information"><label>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eveniet vero accusantium necessitatibus quae quam quod eaque quasi quo, iure ipsam laborum consequuntur impedit temporibus blanditiis fugiat eius cupiditate rerum!.</label></div>
+                    <div class="single-information"><label>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eveniet vero accusantium necessitatibus quae quam quod eaque quasi quo, iure ipsam laborum consequuntur impedit temporibus blanditiis fugiat eius cupiditate rerum!.</label></div>
+                </div>
+
+                <div class="friends-notifications-bar"><label>ZAPROSZENIA DO GRONA ZNAJOMYCH</label><input type="image" src="/images/hide.png"/></div>
+
+                <div class="friends-requests">
+
+                    <div class="single-friend-request">
+                        <div class="friend-avatar-gold" id="id1"></div>
+                        <label>Sarada Uchiha</label>
+                        <div class="icons"><input type="image" src="/images/accept.png"/><input type="image" src="/images/close.png"/></div>
+                    </div>
+
+                    <div class="single-friend-request">
+                        <div class="friend-avatar-red" id="id2"></div>
+                        <label>Ken Kaneki</label>
+                        <div class="icons"><input type="image" src="/images/accept.png"/><input type="image" src="/images/close.png"/></div>
+                    </div>
+
+                    <div class="single-friend-request">
+                        <div class="friend-avatar-blue" id="id3"></div>
+                        <label>Raki</label>
+                        <div class="icons"><input type="image" src="/images/accept.png"/><input type="image" src="/images/close.png"/></div>
+                    </div>
+
+                    <div class="single-friend-request">
+                        <div class="friend-avatar-blue" id="id4"></div>
+                        <label>Horo</label>
+                        <div class="icons"><input type="image" src="/images/accept.png"/><input type="image" src="/images/close.png"/></div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        </body>
+    </html>
