@@ -1,6 +1,12 @@
-html,
+@import url(https://fonts.googleapis.com/css2?family=Roboto);html,
 body {
   height: 100%;
+  min-width: 1280px;
+  min-height: 720px;
+}
+
+body {
+  position: relative;
 }
 
 ::-webkit-scrollbar {
@@ -72,6 +78,10 @@ h2 {
   font-size: 32px;
 }
 
+input {
+  outline: none;
+}
+
 form input {
   padding: 20px;
   box-sizing: border-box;
@@ -117,8 +127,9 @@ form > * + * {
 }
 
 .icons {
-  display: block;
+  display: flex;
   margin-left: auto;
+  align-items: center;
 }
 
 .icons input {
@@ -255,6 +266,7 @@ nav button {
   align-items: center;
   background-color: rgba(0, 0, 0, 0.5);
   display: none;
+  opacity: 0;
 }
 
 .settings {
@@ -330,10 +342,6 @@ nav button {
   background-image: url("/images/avatar_2.png");
   background-size: cover;
   cursor: pointer;
-}
-
-.notifications-background {
-  display: flex;
 }
 
 .notifications-window {
@@ -432,7 +440,7 @@ body {
 .user-panel {
   display: flex;
   flex-direction: column;
-  height: 100vh;
+  height: 100%;
   width: 400px;
   background-color: #272C2E;
 }

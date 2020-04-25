@@ -1,6 +1,9 @@
 <!DOCTYPE html>
     <head>
         <link rel="stylesheet" href="/css/mainpage.css">
+        <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+        <script src="/js/app.js"></script>
     </head>
 
     <body> 
@@ -10,7 +13,7 @@
             <div class="profile-banner">
                 <label class="info-label">PROFIL</label>
                 <div class="icons">
-                    <input type="image" src="/images/settings.png"/><input type="image" src="/images/logout.png"/>
+                    <input type="image" id="settings-ib" src="/images/settings.png"/><input type="image" src="/images/logout.png"/>
                 </div>
             </div>
 
@@ -72,7 +75,7 @@
                 <div><a href="/">STRONA GŁÓWNA</a></div>
                 <div><a href="/">RANKING</a></div>
                 <div><a href="/">FORUM</a></div>
-                <div class="notifications"><input type="image" src="/images/bell.png"/></div>
+                <div class="notifications"><input type="image" id="notifications-ib" src="/images/bell.png"/></div>
             </nav>
             <div class="separator"></div>
             <div class="slideshow">

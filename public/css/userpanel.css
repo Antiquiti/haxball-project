@@ -1,6 +1,12 @@
-html,
+@import url(https://fonts.googleapis.com/css2?family=Roboto);html,
 body {
   height: 100%;
+  min-width: 1280px;
+  min-height: 720px;
+}
+
+body {
+  position: relative;
 }
 
 ::-webkit-scrollbar {
@@ -72,6 +78,10 @@ h2 {
   font-size: 32px;
 }
 
+input {
+  outline: none;
+}
+
 form input {
   padding: 20px;
   box-sizing: border-box;
@@ -117,8 +127,9 @@ form > * + * {
 }
 
 .icons {
-  display: block;
+  display: flex;
   margin-left: auto;
+  align-items: center;
 }
 
 .icons input {
