@@ -109,7 +109,7 @@ form > * + * {
   background-color: #692929;
 }
 
-nav div:not(.notifications) {
+nav div:not(.notifications-icon) {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -126,7 +126,7 @@ nav button {
   margin: 50px 0px;
 }
 
-.notifications {
+.notifications-icon {
   display: flex;
   justify-content: center;
   align-items: center;

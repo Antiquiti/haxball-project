@@ -198,55 +198,59 @@ form > * + * {
 }
 
 .notifications-window {
-  width: 900px;
+  width: 500px;
   height: 600px;
   background-color: #0E1111;
   display: flex;
   flex-direction: column;
-  overflow-y: auto;
-  overflow-x: hidden;
-}
-
-.notifications-window .separator {
-  margin: 20px 50px;
 }
 
 #notify-label {
-  margin: 50px 0px 0px 50px;
+  margin: 40px 0px 40px 40px;
   font-size: 24px;
-  color: #FFFFFF;
+  color: #D1D1D1;
 }
 
-.information-bar,
-.friends-notifications-bar {
+.gray-separator {
+  height: 1px;
+  background-color: #6A6A6A;
+}
+
+.notifications {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-top: 40px;
+}
+
+.single-notification {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 40px 20px 40px;
+}
+
+.single-notification + .single-notification {
+  border-top: 1px #323232 solid;
+  padding-top: 20px;
+}
+
+.single-notification-message {
+  display: flex;
   align-items: center;
-  margin: 20px 50px;
+  margin-bottom: 20px;
 }
 
-.information-bar label,
-.friends-notifications-bar label {
-  color: #9F9F9F;
-}
-
-.information-bar input,
-.friends-notifications-bar input {
-  margin-left: auto;
-}
-
-.single-information {
-  padding: 20px 50px;
-  display: flex;
-}
-
-.single-information label {
+.single-notification-message label {
   font-weight: normal;
+  color: #D1D1D1;
+  margin-left: 20px;
   text-align: justify;
 }
 
-.single-information:hover {
-  background-color: #272C2E;
+.creation-time {
+  color: #5F5F5F;
+  margin-left: 52px;
 }
 
 .single-friend-request {

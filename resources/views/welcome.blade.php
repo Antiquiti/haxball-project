@@ -30,42 +30,49 @@
             </div>
 
             <div class="friends-list">
+
                 <div class="single-friend">
                     <div class="friend-avatar-red">
                         <div class="online"></div>
                     </div>
                     <label>Antiquity 1</label>
                 </div>
+
                 <div class="single-friend">
                     <div class="friend-avatar-red">
                         <div class="online"></div>
                     </div>
                     <label>Antiquity 2</label>
                 </div>
+
                 <div class="single-friend">
                     <div class="friend-avatar-blue">
                         <div class="online"></div>
                     </div>
                     <label>Leluch Lampuge</label>
                 </div>
+
                 <div class="single-friend">
                     <div class="friend-avatar-blue">
                         <div class="online"></div>
                     </div>
                     <label>dappo</label>
                 </div>
+
                 <div class="single-friend">
                     <div class="friend-avatar-gold">
                         <div class="online"></div>
                     </div>
                     <label>Antiquity 3</label>
                 </div>
+
                 <div class="single-friend">
                     <div class="friend-avatar-gold">
                         <div class="online"></div>
                     </div>
                     <label>Nani?</label>
                 </div>
+
             </div>
         </div>
 
@@ -75,7 +82,7 @@
                 <div><a href="/">STRONA GŁÓWNA</a></div>
                 <div><a href="/">RANKING</a></div>
                 <div><a href="/">FORUM</a></div>
-                <div class="notifications"><input type="image" id="notifications-ib" src="/images/bell.png"/></div>
+                <div class="notifications-icon"><input type="image" id="notifications-ib" src="/images/bell.png"/></div>
             </nav>
             <div class="separator"></div>
             <div class="slideshow">
@@ -106,17 +113,45 @@
         <div class="notifications-background">
             <div class="notifications-window">
                 <label id="notify-label">Powiadomienia</label>
-                <div class="information-bar"><label>INFORMACJE</label><input type="image" src="/images/hide.png"/></div>
-                
-                <div class="informations">
-                    <div class="single-information"><label>W wyniku tego że pewien albert z chujnych jest debilem prace nad implementacją systemu ligowego postępują z wyraźnym opóźnieniem. W związku z powyższym premiera ligi zostaje przełożona o czas nieokreślony.</label></div>
-                    <div class="single-information"><label>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eveniet vero accusantium necessitatibus quae quam quod eaque quasi quo, iure ipsam laborum consequuntur impedit temporibus blanditiis fugiat eius cupiditate rerum!.</label></div>
-                    <div class="single-information"><label>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eveniet vero accusantium necessitatibus quae quam quod eaque quasi quo, iure ipsam laborum consequuntur impedit temporibus blanditiis fugiat eius cupiditate rerum!.</label></div>
+                <div class="gray-separator"></div>
+
+                <div class="notifications">
+                    <div class="single-notification">
+                        <div class="single-notification-message">
+                            <img src="/images/notification.png"/>
+                            <label>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur non numquam pariatur repellat, quae illo! Recusandae, tempora repellat voluptatem sint ducimus in. Dolores amet, esse saepe eligendi culpa mollitia earum.</label>
+                        </div>
+                        <label class="creation-time">20 minut temu</label>       
+                    </div>
+
+                    <div class="single-notification">
+                        <div class="single-notification-message">
+                            <img src="/images/notification.png"/>
+                            <label>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Unde animi blanditiis pariatur reiciendis excepturi ipsam harum nulla porro eius rerum quam deserunt, hic ut eaque dignissimos, ratione nihil debitis maxime?</label>
+                        </div>
+                        <label class="creation-time">21 Kwiecień 2020</label>    
+                    </div>
+
+                    <div class="single-notification">
+                        <div class="single-notification-message">
+                            <img src="/images/notification.png"/>
+                            <label>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat quos autem culpa magni! Provident assumenda consequatur nihil quibusdam fugit illum eligendi suscipit perspiciatis iusto dolore alias perferendis, beatae impedit sapiente, tenetur quae corporis nemo fugiat voluptatem eum reiciendis eos neque eveniet minima! Numquam laboriosam nulla quisquam obcaecati, reiciendis, culpa quis, rem voluptatibus ducimus labore temporibus nesciunt unde. Pariatur, consectetur suscipit dolores eaque adipisci ducimus tempora fugit saepe nihil, in corrupti omnis cupiditate distinctio vero cum impedit dignissimos a? Consequatur nesciunt officiis ullam sequi harum reiciendis adipisci quibusdam iste iure rerum! Asperiores repudiandae ipsa praesentium odit perferendis quis eaque assumenda quod!</label>
+                        </div>
+                        <label class="creation-time">19 Kwiecień 2020</label>    
+                    </div>
+
+                    <div class="single-notification">
+                        <div class="single-notification-message">
+                            <img src="/images/notification.png"/>
+                            <label>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rerum optio reiciendis corporis pariatur magnam deserunt dolorem omnis cum doloremque numquam cupiditate, dolor dignissimos est fugit. Quae voluptatem dolor doloribus aspernatur, id sit amet laudantium, impedit hic quibusdam quidem. Hic tempora, nam est aliquid inventore, blanditiis odio asperiores ex impedit sint dolorum praesentium modi molestiae, fuga consequatur ipsa libero ratione similique.</label>
+                        </div>
+                        <label class="creation-time">10 Styczeń 2020</label>    
+                    </div>
                 </div>
+            </div>
 
-                <div class="friends-notifications-bar"><label>ZAPROSZENIA DO GRONA ZNAJOMYCH</label><input type="image" src="/images/hide.png"/></div>
 
-                <div class="friends-requests">
+                <!-- <div class="friends-requests">
 
                     <div class="single-friend-request">
                         <div class="friend-avatar-gold" id="id1"></div>
@@ -142,9 +177,7 @@
                         <div class="icons"><input type="image" src="/images/accept.png"/><input type="image" src="/images/close.png"/></div>
                     </div>
 
-                </div>
-
-            </div>
+                </div> -->
         </div>
-        </body>
-    </html>
+    </body>
+</html>
