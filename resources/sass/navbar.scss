@@ -2,7 +2,7 @@
 
 nav
 {
-    div:not(.notifications)
+    div:not(.notifications-icon)
     {
         @include main.fullCenter();
         margin-left: 20px;
@@ -21,7 +21,7 @@ nav
     }
 }
 
-.notifications
+.notifications-icon
 {
     @include main.fullCenter();
     margin-left: auto;
