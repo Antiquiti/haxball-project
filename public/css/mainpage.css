@@ -257,7 +257,8 @@ nav button {
 }
 
 .settings-background,
-.notifications-background {
+.notifications-background,
+.add-friend-background {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -344,7 +345,8 @@ nav button {
   cursor: pointer;
 }
 
-.notifications-window {
+.notifications-window,
+.add-friend-window {
   width: 500px;
   height: 600px;
   background-color: #0E1111;
@@ -352,7 +354,7 @@ nav button {
   flex-direction: column;
 }
 
-#notify-label {
+.window-title-label {
   margin: 40px 0px 40px 40px;
   font-size: 24px;
   color: #D1D1D1;
@@ -400,24 +402,70 @@ nav button {
   margin-left: 52px;
 }
 
+.search-user-container {
+  position: relative;
+  margin: 40px 40px 20px 40px;
+}
+
+.search-user-container img {
+  position: absolute;
+  padding: 20px;
+}
+
+.search-user {
+  padding: 20px 20px 20px 56px;
+  background-color: #1C2123;
+  color: #5F5F5F;
+  border: none;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.search-user::-webkit-input-placeholder {
+  color: #5F5F5F;
+}
+
+.search-user::-moz-placeholder {
+  color: #5F5F5F;
+}
+
+.search-user:-ms-input-placeholder {
+  color: #5F5F5F;
+}
+
+.search-user::-ms-input-placeholder {
+  color: #5F5F5F;
+}
+
+.search-user::placeholder {
+  color: #5F5F5F;
+}
+
+.invited-players {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 40px;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
 .single-friend-request {
-  padding: 20px 50px;
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding: 20px 0px;
 }
 
 .single-friend-request input {
   margin-left: auto;
 }
 
-.single-friend-request .icons input {
-  width: auto;
-  height: auto;
+.single-friend-request label {
+  color: #D1D1D1;
 }
 
-.single-friend-request:hover {
-  background-color: #272C2E;
+.single-friend-request + .single-friend-request {
+  border-top: 1px #323232 solid;
 }
 
 #id1 {

@@ -110,7 +110,7 @@
     flex-direction: column;
 }
 
-#notify-label
+.window-title-label
 {
     margin: 40px 0px 40px 40px;
     font-size: 24px;
@@ -166,31 +166,73 @@
     margin-left: 52px;
 }
 
+.add-friend-background
+{
+    @extend .notifications-background;
+}
+
+.add-friend-window
+{
+    @extend .notifications-window;
+}
+
+.search-user-container
+{
+    position: relative;
+    margin: 40px 40px 20px 40px;
+
+    img
+    {
+        position: absolute;
+        padding: 20px;
+    }
+}
+
+.search-user
+{
+    padding: 20px 20px 20px 56px;
+    background-color: #1C2123;
+    color: #5F5F5F;
+    border: none; 
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.search-user::placeholder
+{
+    color: #5F5F5F;
+}
+
+.invited-players
+{
+    display: flex;
+    flex-direction: column;
+    padding: 0px 40px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
 .single-friend-request
 {
-    padding: 20px 50px;
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding: 20px 0px;
 
     input
     {
         margin-left: auto;
     }
 
-    .icons
+    label
     {
-        input
-        {
-            width: auto;
-            height: auto;
-        }
+        color: #D1D1D1;
     }
 }
 
-.single-friend-request:hover
+.single-friend-request + .single-friend-request
 {
-    background-color: #272C2E;
+    border-top: 1px  #323232 solid; 
 }
 
 #id1
