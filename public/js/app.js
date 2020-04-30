@@ -2,6 +2,7 @@ $(document).ready(function()
 {
     overlay("#settings-ib", ".settings-background");
     overlay("#notifications-ib", ".notifications-background");
+    overlay("#add-friend-ib", ".add-friend-background");
 });
 
 function overlay(button, element)
