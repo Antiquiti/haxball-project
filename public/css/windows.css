@@ -111,7 +111,8 @@ form > * + * {
 
 .settings-background,
 .notifications-background,
-.add-friend-background {
+.add-friend-background,
+.friends-notifications-background {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -294,12 +295,17 @@ form > * + * {
   color: #5F5F5F;
 }
 
-.invited-players {
+.invited-players,
+.invitations {
   display: flex;
   flex-direction: column;
   padding: 0px 40px;
   overflow-y: auto;
   overflow-x: hidden;
+}
+
+.invitations {
+  padding-top: 20px;
 }
 
 .single-friend-request {

@@ -132,11 +132,6 @@ form > * + * {
   align-items: center;
 }
 
-.icons input {
-  height: 16px;
-  width: 16px;
-}
-
 .icons input + input {
   margin-left: 20px;
 }

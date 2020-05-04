@@ -82,7 +82,10 @@
                 <div><a href="/">STRONA GŁÓWNA</a></div>
                 <div><a href="/">RANKING</a></div>
                 <div><a href="/">FORUM</a></div>
-                <div class="notifications-icon"><input type="image" id="notifications-ib" src="/images/bell.png"/></div>
+                <div class="notifications-icon">
+                    <input type="image" id="f-notifications-ib" src="/images/friends-notifications.png"/>
+                    <input type="image" id="notifications-ib" src="/images/bell.png"/>
+                </div>
             </nav>
             <div class="separator"></div>
             <div class="slideshow">
@@ -189,6 +192,69 @@
                         <div class="friend-avatar-blue" id="id4"></div>
                         <label>Horo</label>
                         <input type="image" src="/images/invite.png"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="friends-notifications-background">
+            <div class="add-friend-window">
+                <label class="window-title-label">Zaproszenia</label>
+                <div class="gray-separator"></div>
+
+                <div class="invitations">
+                    <div class="single-friend-request">
+                        <div class="friend-avatar-gold" id="id1"></div>
+                        <label>Sarada Uchiha</label>
+                        <div class="icons">
+                            <input type="image" src="/images/accept2.png"/>
+                            <input type="image" src="/images/decline.png"/>
+                        </div>
+                    </div>
+
+                    <div class="single-friend-request">
+                        <div class="friend-avatar-blue" id="id2"></div>
+                        <label>Ken Kaneki</label>
+                        <div class="icons">
+                            <input type="image" src="/images/accept2.png"/>
+                            <input type="image" src="/images/decline.png"/>
+                        </div>
+                    </div>
+
+                    <div class="single-friend-request">
+                        <div class="friend-avatar-red" id="id3"></div>
+                        <label>Raki</label>
+                        <div class="icons">
+                            <input type="image" src="/images/accept2.png"/>
+                            <input type="image" src="/images/decline.png"/>
+                        </div>
+                    </div>
+
+                    <div class="single-friend-request">
+                        <div class="friend-avatar-blue" id="id4"></div>
+                        <label>Horo</label>
+                        <div class="icons">
+                            <input type="image" src="/images/accept2.png"/>
+                            <input type="image" src="/images/decline.png"/>
+                        </div>
+                    </div>
+
+                    <div class="single-friend-request">
+                        <div class="friend-avatar-blue" id="id4"></div>
+                        <label>Horo</label>
+                        <div class="icons">
+                            <input type="image" src="/images/accept2.png"/>
+                            <input type="image" src="/images/decline.png"/>
+                        </div>
+                    </div>
+
+                    <div class="single-friend-request">
+                        <div class="friend-avatar-blue" id="id4"></div>
+                        <label>Horo</label>
+                        <div class="icons">
+                            <input type="image" src="/images/accept2.png"/>
+                            <input type="image" src="/images/decline.png"/>
+                        </div>
                     </div>
                 </div>
             </div>
