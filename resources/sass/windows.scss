@@ -212,6 +212,12 @@
     overflow-x: hidden;
 }
 
+.invitations
+{
+    @extend .invited-players;
+    padding-top: 20px;
+}
+
 .single-friend-request
 {
     display: flex;
@@ -233,6 +239,11 @@
 .single-friend-request + .single-friend-request
 {
     border-top: 1px  #323232 solid; 
+}
+
+.friends-notifications-background
+{
+    @extend .add-friend-background;
 }
 
 #id1
